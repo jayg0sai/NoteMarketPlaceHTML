@@ -1,0 +1,153 @@
+@media (min-width: 1921px) {
+
+    .container-fluid {
+        padding: 0 200px;
+    }
+
+    #home-content {
+        padding: 200px 0 150px;
+    }
+
+    /* Details */
+    .form-header h3 {
+        font-size: 38px;
+        line-height: 42px;
+    }
+
+    .form-group label {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .form-group input,
+    .form-group select {
+        font-size: 20px;
+        line-height: 24px;
+        height: 60px;
+        border: 2px solid #d1d1d1;
+    }
+
+    #btn-form {
+        width: 200px;
+        height: 50px;
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .dob:after {
+        font-size: 22px;
+    }
+
+    #copyright p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+@media (min-width: 1045px) and (max-width: 1199px) {
+    .nav-link {
+        font-size: 12px;
+        line-height: 18px;
+        margin: 0 2px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1045px) {
+    .nav-link {
+        font-size: 10px;
+        line-height: 14px;
+        margin: 0 2px;
+    }
+}
+
+
+@media (max-width: 991px) {
+
+    /* Mobile Navigation */
+    .navbar {
+        padding: 20px;
+    }
+
+    .collapse {
+        -webkit-animation: all 300ms linear;
+        animation: all 300ms linear;
+    }
+
+    #mobile-nav-open-btn {
+        color: #6255a5;
+        font-size: 30px;
+        line-height: 34px;
+        font-weight: 600;
+    }
+
+    #mobile-nav-close-btn {
+        color: #6255a5;
+        font-size: 35px;
+        line-height: 40px;
+        font-weight: 600;
+        display: none;
+    }
+
+    button:hover,
+    button:focus {
+        outline: none;
+    }
+
+    .nav-link {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        display: block;
+        color: #333333;
+        margin: 10px 0;
+    }
+
+    .nav-link:focus,
+    .nav-link:hover {
+        color: #6255a5;
+    }
+
+    #btn-nav {
+        width: 89px;
+        height: 35px;
+        border-radius: 3px;
+        border: 1px solid #6255a5;
+        color: #fff;
+        background-color: #6255a5;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 600;
+        margin: 10px 0;
+    }
+
+    #btn-nav:focus {
+        outline: 0 !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .col-12 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width:372px) {
+    .navbar {
+        padding: 10px;
+    }
+
+    .navbar button {
+        text-align: right;
+        width: 100%;
+    }
+}
+
+@media (max-width:300px) {
+    #logo-nav {
+        width: 70%;
+    }
+}

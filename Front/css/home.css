@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body,
+html {
+    width: 100%;
+    overflow-x: hidden;
+    font-family: "Open Sans", sans-serif;
+}
+
+.container-fluid {
+    padding: 0 100px;
+}
+
+.btn:hover,
+.btn:focus {
+    color: #fff;
+}
+
+.btn:focus {
+    outline: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+/* Home */
+
+#home {
+    background: url("../images/banner-with-overlay.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 200px 0 50px;
+}
+
+.home h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44px;
+    color: #fff;
+}
+
+.home p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #fff;
+}
+
+.btn-home {
+    color: #fff;
+    height: 40px;
+    width: 132px;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+/* About */
+
+#about-content,
+#work-content,
+#client-content {
+    padding: 60px 0;
+}
+
+#about-heading h3,
+#work-heading h3,
+#client-heading h3 {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 38px;
+    color: #6255a5;
+}
+
+#about p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #333333;
+}
+
+#about-text > :first-child {
+    margin-bottom: 50px;
+}
+
+/* Work */
+
+#work {
+    background-color: #f4f4f4;
+}
+
+.work-img {
+    width: 140px;
+    height: 140px;
+    display: inline-block;
+    line-height: 140px;
+    border-radius: 50%;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.08);
+    margin: 0 auto 30px;
+}
+
+.work-item h3 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #6255a5;
+    margin-bottom: 20px;
+}
+
+.work-item p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.btn-work {
+    width: 172px;
+    height: 50px;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    background-color: #6255a5;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+/* Client */
+#client-heading,
+#work-heading {
+    margin: 0 0 60px 0;
+}
+
+.client {
+    padding: 40px;
+    margin: 15px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.08);
+}
+
+.client img {
+    width: 100px;
+    height: 100px;
+}
+
+.client-details {
+    padding-top: 20px;
+}
+
+.client-details h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #6255a5;
+    padding: 0;
+    margin: 0;
+}
+
+.client-details p {
+    padding: 15px 0 0 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333333;
+}
+
+.client-review {
+    margin-top: 30px;
+}
+
+.client-review p {
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 28px;
+    color: #333333;
+}
+
+#client .col-md-6 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+footer {
+    padding: 30px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+#copyright p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #333333;
+    padding-top: 8px;
+}
+
+/* Social Icons */
+
+ul.social-list {
+    padding: 0;
+    float: right;
+}
+
+ul.social-list li {
+    display: inline-block;
+    padding: 0;
+}
+
+ul.social-list li a {
+    border: 1px solid #6255a5;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background-color: #6255a5;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+/* Navigation */
+
+.navbar {
+    -webkit-transition: all 300ms linear;
+    transition: all 300ms linear;
+    padding: 20px 0;
+}
+
+.navbar-nav .nav-link,
+.navbar-nav .nav-link:focus,
+.navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0 10px;
+}
+
+#btn-nav {
+    width: 89px;
+    height: 35px;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    color: #6255a5;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+#btn-nav:focus {
+    outline: 0 !important;
+}

@@ -1,0 +1,450 @@
+/* Mobile Navigation */
+.mobile {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.mobile .collapse {
+    -webkit-animation: all 300ms linear;
+    animation: all 300ms linear;
+}
+
+.mobile #mobile-nav-open-btn {
+    color: #6255a5;
+    font-size: 30px;
+    line-height: 34px;
+    font-weight: 600;
+}
+
+.mobile #mobile-nav-close-btn {
+    color: #6255a5;
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 600;
+    display: none;
+}
+
+.mobile button:hover,
+.mobile button:focus {
+    outline: none;
+}
+
+.mobile .nav-link {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    display: block;
+    color: #333333;
+    margin: 10px 0;
+}
+
+.mobile .nav-link:focus,
+.mobile .nav-link:hover {
+    color: #6255a5;
+}
+
+.mobile #btn-nav {
+    width: 89px;
+    height: 35px;
+    border-radius: 3px;
+    border: 1px solid #6255a5;
+    color: #fff;
+    background-color: #6255a5;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+#btn-nav:focus {
+    outline: 0 !important;
+}
+
+
+@media (min-width: 2300px) {
+    .client-details {
+        margin-left: -50px;
+    }
+}
+
+@media (min-width: 1768px) {
+
+    .container-fluid {
+        padding: 0 200px;
+    }
+
+
+
+    .home h2 {
+        font-size: 50px;
+        line-height: 54px;
+    }
+
+    .home p,
+    #about p {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .btn-home {
+        height: 52px;
+        width: 212px;
+        font-size: 25px;
+        line-height: 28px;
+    }
+
+    #about-heading h3,
+    #work-heading h3,
+    #client-heading h3 {
+        font-size: 40px;
+        line-height: 44px;
+    }
+
+    /* Work */
+    .work-item h3 {
+        font-size: 30px;
+        line-height: 34px;
+
+    }
+
+    .work-item p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .btn-work {
+        font-size: 20px;
+        line-height: 24px;
+
+    }
+
+    /* Client */
+    .client-details {
+        padding-top: 35px;
+    }
+
+    .client img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .client-details h3 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .client-details p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .client-review p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    /* Footer */
+    #copyright p {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    /* Social-icon */
+    ul.social-list li a {
+        width: 45px;
+        height: 45px;
+        ;
+        line-height: 40px;
+        margin-left: 10px;
+    }
+
+    /* Navigation */
+
+    #logo-nav {
+        width: 130%;
+    }
+
+    .nav-link {
+        font-size: 22px;
+        line-height: 26px;
+        margin: 0 25px;
+    }
+
+    #btn-nav {
+        width: 120px;
+        height: 46px;
+        font-size: 22px;
+        line-height: 26px;
+        margin-left: 20px;
+    }
+
+    /* White Navigation */
+
+    .white-nav-top {
+        height: 100px;
+        padding: 20px 0;
+    }
+}
+
+@media (min-width: 1567px) and (max-width: 1767px) {
+    .client-details {
+        margin-left: -50px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1291px) {
+    .container-fluid {
+        padding: 0 50px;
+    }
+
+  
+
+    .home h2 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    #about-heading h3,
+    #work-heading h3,
+    #client-heading h3 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    #about p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    #about-text > :first-child {
+        margin-bottom: 30px;
+    }
+
+    .work-img {
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+    }
+
+    .work-item h3 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .work-item p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .btn-work {
+        width: 132px;
+        height: 40px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .client {
+        padding: 20px;
+    }
+
+    .client-details h3 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .client-details p {
+        font-size: 14px;
+        line-height: 18px;
+        padding: 10px 0 0 0;
+    }
+
+    .client-review p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    #copyright p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    #logo-nav {
+        width: 90%;
+    }
+}
+@media (min-width: 992px) {
+
+    /* White Navigation */
+
+    .white-nav-top {
+        background: #fff;
+        height: 80px;
+        padding: 10px 0;
+        -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.08);
+        box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.08);
+        z-index: 2;
+    }
+
+    .white-nav-top ul.navbar-nav > li > a,
+    .white-nav-top ul.navbar-nav > li > a:hover,
+    .white-nav-top ul.navbar-nav > li > a:focus {
+        color: #333333;
+    }
+
+    .white-nav-top #btn-nav {
+        border: 1px solid #6255a5;
+        color: #fff;
+        background-color: #6255a5;
+    }
+}
+@media (max-width: 991px) {
+    .container-fluid {
+        padding: 0 20px;
+    }
+
+
+
+    #about-content,
+    #work-content,
+    #client-content {
+        padding: 30px 0;
+    }
+
+    #about {
+        text-align: center;
+    }
+
+    #about-heading,
+    #work-heading,
+    #client-heading {
+        margin-bottom: 30px;
+    }
+
+    #about p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    #about-text > :first-child {
+        margin-bottom: 20px;
+    }
+
+    .client {
+        padding: 20px;
+    }
+
+    .client img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .client-details {
+        padding-top: 15px;
+    }
+
+    .client-details h3 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .client-details p {
+        font-size: 12px;
+        line-height: 15px;
+        padding: 10px 0 0 0;
+    }
+
+    .client-review {
+        margin-top: 10px;
+    }
+
+    .client-review p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    footer {
+        padding: 10px 0;
+    }
+
+    #copyright p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .nav-link {
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 18px;
+        margin: 0 2px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .container-fluid {
+        padding: 0 10px;
+    }
+
+    #about-heading h3,
+    #work-heading h3,
+    #client-heading h3 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .work-item h3 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .client {
+        padding: 40px;
+    }
+}
+
+@media (max-width:575px) {
+   
+   
+
+    .work-img {
+        margin-top: 20px;
+    }
+
+    .client {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .col-12 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width:372px) {
+    .mobile {
+        padding: 10px;
+    }
+
+    .mobile button {
+        text-align: right;
+        width: 100%;
+    }
+}
+
+@media (max-width:300px) {
+    #logo-nav {
+        width: 70%;
+    }
+
+    #about-heading h3,
+    #work-heading h3,
+    #client-heading h3 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
