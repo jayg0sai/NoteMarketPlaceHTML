@@ -1,0 +1,128 @@
+@media (min-width: 1768px) {
+    .center {
+        width: 800px;
+    }
+
+    .heading {
+        font-size: 42px;
+        line-height: 50px;
+    }
+
+    .text {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    #content-box {
+        padding: 70px;
+    }
+
+    #form-password {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28px;
+
+    }
+
+    input[type=password],
+    input[type=text] {
+        height: 60px;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+
+    .btn {
+        height: 60px;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 26px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .center {
+        margin: 5% auto 5%;
+        width: 400px;
+    }
+
+    #content-box {
+        padding: 50px 30px;
+    }
+
+    .heading {
+        font-size: 30px;
+        line-height: 34px;
+    }
+
+    .text {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+    }
+
+    input[type=password],
+    input[type=text] {
+        height: 40px;
+    }
+
+    .field-icon {
+        top: 20%;
+        font-size: 20px;
+    }
+
+    .btn {
+        height: 40px;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .center {
+        margin: 5% auto 5%;
+        width: 100%;
+    }
+
+    #content-box {
+        padding: 50px 20px;
+        border-radius: 0;
+    }
+}
+
+@media (max-width: 300px) {
+    #logo img {
+        width: 90%;
+    }
+
+    #content-box {
+        padding: 50px 2px;
+    }
+
+    #form-password {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+
+    }
+
+    input[type=password],
+    input[type=text] {
+        height: 30px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+    }
+
+    .field-icon {
+        top: 15%;
+        font-size: 20px;
+    }
+
+    .btn {
+        height: 30px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+}

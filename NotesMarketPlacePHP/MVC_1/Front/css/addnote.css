@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Home */
+
+.container-fluid {
+    padding: 0 100px;
+}
+
+#home {
+    background-image: url("../images/banner-with-overlay.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#home-content {
+    padding: 150px 0 100px;
+}
+
+#home h3 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 52px;
+    color: #fff;
+}
+
+/* Details */
+.form-header h3 {
+    margin: 60px 0 40px;
+    font-size: 34px;
+    line-height: 38px;
+    font-weight: 600;
+    color: #6255a5;
+}
+.form-group > label {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #333333;
+    margin-bottom: 10px;
+}
+.form-control > label {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #8a8a8a;
+}
+
+.textarea label {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.form-group input,
+.form-group select {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #8a8a8a;
+    margin: 0 30px 30px 0;
+    border: 1px solid #d1d1d1;
+    height: 50px;
+    border-radius: 3px;
+}
+
+#form-type,
+#form-category,
+.form-country {
+    margin-top: 4px;
+}
+
+
+.btn-form {
+    background-color: #6255a5;
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    margin: 30px 0 60px;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    color: #fff;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+}
+
+/* Remove IE arrow */
+select::-ms-expand {
+    display: none;
+}
+
+.cos {
+    position: relative;
+    
+}
+
+.cos::after {
+    content: url("../images/arrow-down.svg");
+    position: absolute;
+    top: 14px;
+    right: 10px;
+    cursor: pointer;
+    pointer-events: none;
+
+}
+
+.image-upload input {
+    display: none;
+}
+
+.image-upload p {
+    color: #8a8a8a;
+}
+
+.image-upload.form-control {
+    height: 100px;
+}
+
+.image-upload label {
+    margin-top: 10px;
+}
+
+textarea {
+    resize: none;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #8a8a8a;
+    border: 1px solid #d1d1d1;
+    border-radius: 3px;
+}
+
+.check {
+    display: inline-block;
+    position: relative;
+    padding-left: 45px;
+    padding-top: 5px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #333333;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+label.check {
+    margin-right: 20px;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 35px;
+    width: 35px;
+    background-color: #fff;
+    border: 1px solid #d1d1d1;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.check:hover input ~ .checkmark {
+    background-color: #d1d1d1;
+}
+
+/* When the radio button is checked, add a blue background */
+.check input:checked ~ .checkmark {
+    background-color: #fff;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.check input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.check .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #6255a5;
+}
+
+.file-upload input {
+    display: none;
+}
+
+.file-upload p {
+    color: #8a8a8a;
+}
+
+.file-upload.form-control {
+    height: 125px;
+}
+
+.file-upload label {
+    margin-top: 20px;
+}
+
+/* Navigation */
+.navbar {
+    background: #fff;
+    -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.08);
+    -webkit-transition: all 300ms linear;
+    transition: all 300ms linear;
+    padding: 20px 0;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0 5px;
+    color: #333333;
+}
+
+#btn-nav {
+
+    width: 89px;
+    height: 35px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #6255a5;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+#btn-nav:focus {
+    outline: 0 !important;
+}
+
+li.nav-item img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+#btn-form {
+    background-color: #6255a5;
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    margin: 30px 0 60px;
+    text-transform: uppercase;
+}
+
+.btn:hover,
+.btn:focus {
+    color: #fff;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.dropdown .btn {
+    padding: 0;
+}
+
+.dropdown-menu {
+    left: -100%;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    border: 0;
+}
+
+a.same:hover,
+a.same:focus,
+a.diff:hover,
+a.diff:focus {
+    background-color: #6255a5;
+    color: #fff;
+}
+
+a.same {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+a.diff {
+    color: #6255a5;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+button:hover,
+button:focus {
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+
+}
+
+/* Footer */
+footer {
+    padding: 40px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+    overflow-x: hidden;
+}
+
+#copyright p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #333333;
+    padding-top: 18px;
+}
+
+/* Social Icons */
+
+ul.social-list {
+    padding: 0;
+    float: right;
+}
+
+ul.social-list li {
+    display: inline-block;
+    padding: 0;
+}
+
+ul.social-list li a {
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background-color: #6255a5;
+    border-radius: 50%;
+    margin: 5px;
+}
