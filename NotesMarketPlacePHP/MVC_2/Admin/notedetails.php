@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tag -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Title -->
+    <title>Note Details</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+
+    <!-- International CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.min.css" integrity="sha512-yye/u0ehQsrVrfSd6biT17t39Rg9kNc+vENcCXZuMz2a+LWFGvXUnYuWUW6pbfYj1jcBb/C39UZw2ciQvwDDvg==" crossorigin="anonymous" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/notedetails.css">
+
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/notedetails-responsive.css">
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img id="logo-nav" src="images/logo.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span id="mobile-nav-open-btn">&#9776;</span>
+                <span id="mobile-nav-close-btn">&times;</span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+
+                        <div class="dropdown">
+                            <a href="#" class="nav-link" role="button" id="1dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Dashboard
+                            </a>
+
+                            <div class="dropdown-menu" aria-labelledby="1dropdownMenuLink">
+                                <a class="dropdown-item same" href="#">Notes Under Review</a>
+                                <a class="dropdown-item same" href="#">Published Notes</a>
+                                <a class="dropdown-item same" href="#">Downloaded Notes</a>
+                                <a class="dropdown-item same" href="#">Rejected Notes</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Notes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Members</a>
+                    </li>
+                    <li class="nav-item">
+
+                        <div class="dropdown">
+                            <a href="#" class="nav-link" role="button" id="2dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Reports
+                            </a>
+
+                            <div class="dropdown-menu" aria-labelledby="2dropdownMenuLink">
+                                <a class="dropdown-item same" href="#">Spam Reports</a>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Settings</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <a class="btn" href="#" role="button" id="3dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <img src="images/user-img.png" alt="user">
+                            </a>
+
+                            <div class="dropdown-menu" aria-labelledby="3dropdownMenuLink">
+                                <a class="dropdown-item same" href="#">Update Profile</a>
+                                <a class="dropdown-item same" href="#">Change Password</a>
+                                <a class="dropdown-item diff" href="#">Logout</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <a class="btn" id="btn-nav" title="Logout" role="button">Logout</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Note -->
+    <section id="about-note">
+        <div class="container-fluid">
+            <div id="details1">
+                <div class="details-heading">
+                    <h5>Notes Details</h5>
+                </div>
+                <div class="row">
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div class="row">
+                            <div class="note-img col-md-3 col-sm-3">
+                                <img src="images/computer-science.png" alt="cs">
+                            </div>
+                            <div class="note-desc col-md-9 col-sm-9">
+                                <div id="note-heading">
+                                    <h3>Computer Science</h3>
+                                    <p>Sciences</p>
+                                </div>
+                                <p id="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt a quibusdam tempora maxime quod modi, eveniet aut voluptatibus, deserunt beatae consequuntur, fugit, amet repellat. Explicabo voluptatem soluta dolorum ut praesentium.</p>
+                                <a href="#" class="btn" title="download" role="button">Download / $15</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="details1-2 col-lg-5 col-md-12 col-sm-12">
+                        <div class="note-details">
+                            <div class="label">
+                                Institution:
+                            </div>
+                            <div class="value">
+                                University Of California
+                            </div>
+                        </div>
+                        <div class="note-details">
+                            <div class="label">
+                                Country:
+                            </div>
+                            <div class="value">
+                                United States
+                            </div>
+                        </div>
+                        <div class="note-details">
+                            <div class="label">
+                                Course Name:
+                            </div>
+                            <div class="value">
+                                Computer Engineering
+                            </div>
+                        </div>
+                        <div class="note-details">
+                            <div class="label">
+                                Course Code:
+                            </div>
+                            <div class="value">
+                                248705
+                            </div>
+                        </div>
+                        <div class="note-details">
+                            <div class="label">
+                                Professor:
+                            </div>
+                            <div class="value">
+                                Mr. Richard Brown
+                            </div>
+                        </div>
+                        <div class="note-details">
+                            <div class="label">
+                                Number of pages:
+                            </div>
+                            <div class="value">
+                                277
+                            </div>
+                        </div>
+                        <div class="note-details">
+                            <div class="label">
+                                Approved Date:
+                            </div>
+                            <div class="value">
+                                November 25 2020
+                            </div>
+                        </div>
+                        <div class="note-details for-bm">
+                            <div class="label">
+                                Rating:
+                            </div>
+                            <div class="value">
+                                <div class="rate">
+                                    <img src="images/star.png" alt="star">
+                                    <img src="images/star.png" alt="star">
+                                    <img src="images/star.png" alt="star">
+                                    <img src="images/star.png" alt="star">
+                                    <img src="images/star-white.png" alt="star">
+                                    <span class="reviewcount">100 Reviews</span>
+                                </div>
+                            </div>
+                        </div>
+                        <span class="inappro">5 Users marked this note as inappropriate</span>
+                    </div>
+                </div>
+            </div>
+            <div id="details2">
+                <div class="row">
+                    <div class="col-lg-5 col-md-12 col-sm-12">
+                        <div id="preview">
+                            <div class="details-heading">
+                                <h5>Notes Preview</h5>
+                            </div>
+
+                            <div id="Iframe-Cicis-Menu-To-Go" class="set-margin-cicis-menu-to-go set-padding-cicis-menu-to-go set-border-cicis-menu-to-go set-box-shadow-cicis-menu-to-go center-block-horiz">
+                                <div class="responsive-wrapper responsive-wrapper-padding-bottom-90pct">
+                                    <iframe src="images/sample.pdf">
+
+                                    </iframe>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-12 col-sm-12">
+                        <div id="review">
+                            <div class="details-heading">
+                                <h5>Customer Reviews</h5>
+                            </div>
+                            <div id="main">
+                                <div class="customer">
+                                    <div class="row">
+                                        <div class="col-md-1 col-sm-1 col-1 client">
+                                            <img src="images/reviewer-1.png" alt="reviewer" class="img-responsive img-circle">
+                                        </div>
+                                        <div class="customer-details col-md-10 col-sm-10 col-10">
+                                            <h6>Richard Brown</h6>
+                                            <div class="rate">
+                                                <img src="images/star.png" alt="star">
+                                                <img src="images/star.png" alt="star">
+                                                <img src="images/star.png" alt="star">
+                                                <img src="images/star.png" alt="star">
+                                                <img src="images/star-white.png" alt="star">
+                                            </div>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum ab, iusto doloribus, neque vitae unde labore quaerat.</p>
+                                        </div>
+                                        <div class="delete col-md-1 col-sm-1 col-1"><img src="images/delete.png"></div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="customer">
+                                    <div class="row">
+                                        <div class="col-md-1 col-sm-1 col-1 client">
+                                            <img src="images/reviewer-2.png" alt="reviewer" class="img-responsive img-circle">
+                                        </div>
+                                        <div class="customer-details col-md-10 col-sm-10 col-10">
+                                            <h6>Alice Ortiaz</h6>
+                                            <div class="rate">
+                                                <img src="images/star.png" alt="star">
+                                                <img src="images/star.png" alt="star">
+                                                <img src="images/star.png" alt="star">
+                                                <img src="images/star.png" alt="star">
+                                                <img src="images/star-white.png" alt="star">
+                                            </div>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum ab, iusto doloribus, neque vitae unde labore quaerat.</p>
+                                        </div>
+                                        <div class="delete col-md-1 col-sm-1 col-1"><img src="images/delete.png"></div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="customer">
+                                    <div class="row">
+                                        <div class="col-md-1 col-sm-1 col-1 client">
+                                            <img src="images/reviewer-3.png" alt="reviewer" class="img-responsive img-circle">
+                                        </div>
+                                        <div class="customer-details col-md-10 col-sm-10 col-10">
+                                            <h6>Sara Passmore</h6>
+                                            <div class="rate">
+                                                <img src="images/star.png" alt="star">
+                                                <img src="images/star.png" alt="star">
+                                                <img src="images/star.png" alt="star">
+                                                <img src="images/star.png" alt="star">
+                                                <img src="images/star-white.png" alt="star">
+                                            </div>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                                        </div>
+                                        <div class="delete col-md-1 col-sm-1 col-1"><img src="images/delete.png"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-sm-8 col-12">
+                    <div id="copyright">
+                        <p>
+                            Copyright &copy; Tatwasoft All rights reserved.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-4 col-12">
+                    <ul class="social-list">
+                        <li><a href="#"><img src="images/facebook.png" alt="facebook" class="img-responsive img-circle"></a></li>
+                        <li><a href="#"><img src="images/twitter.png" alt="twitter" class="img-responsive img-circle"></a></li>
+                        <li><a href="#"><img src="images/linkedin.png" alt="linkedin" class="img-responsive img-circle"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+
+    <!-- International JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js" integrity="sha512-DNeDhsl+FWnx5B1EQzsayHMyP6Xl/Mg+vcnFPXGNjUZrW28hQaa1+A4qL9M+AiOMmkAhKAWYHh1a+t6qxthzUw==" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js" integrity="sha512-BNZ1x39RMH+UYylOW419beaGO0wqdSkO7pi1rYDYco9OL3uvXaC/GTqA5O4CVK2j4K9ZkoDNSSHVkEQKkgwdiw==" crossorigin="anonymous"></script>
+
+
+    <!-- Custom JS -->
+    <script src="js/notedetails.js"></script>
+
+</body>
+
+</html>

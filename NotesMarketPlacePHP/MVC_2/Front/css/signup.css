@@ -1,0 +1,177 @@
+/* Login Page */
+/* Background image */
+#bg-img {
+    font-family: "Open Sans", sans-serif;
+    background-image: url("../images/banner-with-overlayl.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height: auto;
+    overflow-x: hidden;
+}
+
+.center {
+    margin: 8% auto 8%;
+    width: 580px;
+}
+
+#logo {
+    margin: 0 0 25px 0;
+}
+
+#content-box {
+    background-color: #fff;
+    padding: 50px;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+.heading {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 38px;
+    color: #6255a5;
+}
+
+.text {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 19px;
+    color: #333333;
+    margin: 20px 0 45px 0;
+}
+.alert {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.up img {
+    margin-right: 5px;
+}
+.up {
+    color: #155724;
+}
+#form-email,
+.form-password,
+.form-text,
+.footer p,
+.form-check-label {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+
+#form-email label,
+.form-password label,
+.form-text label {
+    color: #333333;
+    margin: 0 0 10px 0;
+}
+
+input[type=email],
+input[type=password],
+input[type=text] {
+    border: 1px solid #6255a5;
+    height: 50px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.form-group input[type=email] {
+    color: #000;
+}
+
+.form-password,
+#form-email,
+.form-text {
+    margin: 30px 0 0 0;
+}
+
+input[type=password] {
+    color: #8a8a8a;
+}
+
+
+.field-icon {
+    position: absolute;
+    top: 20%;
+    right: 2%;
+    z-index: 3;
+    font-size: 25px;
+}
+.eye1,
+.eye2 {
+    display: none;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+span.login a {
+    color: #6255a5;
+    text-decoration: none;
+}
+
+.toggle-password {
+    cursor: pointer;
+}
+
+.btn {
+    background-color: #6255a5;
+    width: 100%;
+    height: 50px;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    margin: 30px 0 20px 0;
+    text-transform: uppercase;
+}
+
+.btn,
+.btn:hover {
+    color: #fff;
+}
+
+.footer p {
+    color: #333333;
+
+}
+#message {
+  display:none;
+  position: relative;
+  padding: 10px 0 0 30px;
+    margin-top:10px;
+}
+
+#message p {
+  font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -30px;
+  content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -30px;
+  content: "✖";
+}
